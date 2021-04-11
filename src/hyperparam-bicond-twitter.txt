@@ -1,0 +1,17 @@
+dir_name:BiCondLSTM-basic-twitter-tuning
+num_search_trials:20
+name:BiCondLSTM-basic-twitter
+tune_params:h,dropout
+b:64
+epochs:50
+lr:0.001
+max_tok_len:20
+max_top_len:6
+vec_dim:100
+vec_name:glove.twitter.27B.100d
+h_range:40-150
+h_algo:uniform-integer
+h_type:int
+dropout_range:0.1-0.4
+dropout_algo:uniform-float
+dropout_type:float

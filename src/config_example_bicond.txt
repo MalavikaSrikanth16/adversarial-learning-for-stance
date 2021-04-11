@@ -1,0 +1,12 @@
+name:BiCondLSTM-basic-twitter-example
+ckp_path:data/checkpoints/
+res_path:data/model_results/
+vec_name:glove.twitter.27B.100d
+lr:0.001
+max_top_len:6
+vec_dim:100
+epochs:50
+max_tok_len:20
+b:64
+h:127
+dropout:0.12
